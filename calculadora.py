@@ -23,7 +23,9 @@ while True: # Loop para repetir as operações enquanto o usuário quiser
     print("2: Subtração (-)")
     print("3: Multiplicação (*)")
     print("4: Divisão (/)")
-    operacao = input("Digite o número da operação (1, 2, 3 ou 4): ")
+    print("5: Potência (**)")
+    print("6: Porcentagem (%)")
+    operacao = input("Digite o número da operação: ")
 
     # Executando a operação escolhida
     if operacao == "1":
@@ -41,8 +43,14 @@ while True: # Loop para repetir as operações enquanto o usuário quiser
             print("Resultado da divisão:", resultado)
         else:
             print("Erro: divisão por zero não é permitida.")
+    elif operacao == "5":
+        resultado = num1 ** num2
+        print("Resultado da potência:", resultado)
+    elif operacao == "6":
+        resultado = (num2 / num1) * 100
+        print("Resultado da porcentagem:", resultado)
     else:
-        print("Operação inválida. Tente novamente.")
+        print("Operação inválida.")
 
     # Pergunta se o usuário quer fazer outra operação
     repetir = input("Deseja fazer outra operação? (s para sim / qualquer outra tecla para sair): ")
