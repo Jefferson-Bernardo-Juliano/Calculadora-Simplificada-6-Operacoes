@@ -1,4 +1,4 @@
-# Calculadora-Simplificada-4-Operacoes
+# Calculadora-Simplificada-6-Operacoes
 1ª Projeto criado em Python junto ao Linux para rodar o script.
 
  ## Explicação para executar o .sh:
