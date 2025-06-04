@@ -1,11 +1,24 @@
-# Calculadora-Simplificada-6-Operacoes
-1ª Projeto criado em Python junto ao Linux para rodar o script.
+# 🧮 Calculadora Simplificada – 6 Operações
 
- ## Explicação para executar o .sh:
-  - Para executar um script .sh no Ubuntu, pode-se usar o comando ./calculadora.sh no terminal e pressionar "Enter" para executar o script.
+Este projeto é uma **calculadora de linha de comando desenvolvida em Python**, com um script `.sh` para facilitar sua execução em sistemas Linux (Ubuntu).  
+Ideal para iniciantes que desejam praticar lógica de programação, interação com o terminal e automação com bash scripts. 🚀
 
- ## Explicação do seu código em Python:
-  - Esse script calcula as 4 operações básicas de adição, subtração, divisão e multiplicação.
-  - Ele recolhe o nome do usuário e dois números para realizar qualquer uma das operações.
-  - E no final uma pergunta ao usuário "se deseja realizar outra operação"
-  - Caso não, realiza uma mensagem final.
+---
+
+## 📌 Funcionalidades
+
+- Realiza as **quatro operações básicas**: adição, subtração, multiplicação e divisão.
+- Recolhe o **nome do usuário** e os **dois números** a serem calculados.
+- Permite ao usuário decidir se deseja fazer **outros cálculos**.
+- Exibe uma **mensagem final personalizada** ao encerrar.
+
+---
+
+## 🐧 Execução no Linux
+
+Para rodar o script no Ubuntu (ou em outro sistema Linux):
+
+1. Dê permissão de execução ao arquivo `.sh` (caso necessário):
+
+   ```bash
+   chmod +x calculadora.sh
